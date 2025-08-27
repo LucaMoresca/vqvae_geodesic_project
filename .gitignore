@@ -1,0 +1,46 @@
+# ========================
+# VQ-VAE Geodesic Project
+# ========================
+
+# --- Dataset (CIFAR-10 ecc.) ---
+data/cifar-10-batches-py/
+data/cifar-10-python.tar.gz
+data/processed/
+data/raw/
+!data/.gitkeep   # mantieni solo il segnaposto
+
+# --- Risultati e output ---
+results/
+output_imgs/
+
+# --- Checkpoints e pesi ---
+*.pth
+*.pt
+*.safetensors
+*.bin
+*.npy
+*.npz
+*.csv
+*.json
+*.txt
+
+# Mantieni a mano eventuali config leggeri (usa git add -f se servono)
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Notebook ---
+*.ipynb_checkpoints/
+
+# --- Ambiente / IDE ---
+.venv/
+env/
+*.egg-info/
+.vscode/
+.idea/
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
